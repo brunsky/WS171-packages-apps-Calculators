@@ -27,14 +27,14 @@
     <string name="digit7">"7"</string>
     <string name="digit8">"8"</string>
     <string name="digit9">"9"</string>
-    <string name="del">"EXCLUIR"</string>
+    <string name="del">"ELIMINAR"</string>
     <string name="clear">"LIMPAR"</string>
-    <string name="sin">"sin"</string>
+    <string name="sin">"sen"</string>
     <string name="cos">"cos"</string>
     <string name="tan">"tan"</string>
     <string name="e">"e"</string>
     <string name="ln">"ln"</string>
-    <string name="lg">"registro"</string>
+    <string name="lg">"registo"</string>
     <string name="leftParen">"("</string>
     <string name="rightParen">")"</string>
     <string name="basic">"Painel básico"</string>

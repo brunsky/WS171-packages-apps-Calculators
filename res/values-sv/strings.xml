@@ -15,8 +15,8 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">"Calculadora"</string>
-    <string name="error">"Erro"</string>
+    <string name="app_name">"Kalkylator"</string>
+    <string name="error">"Fel"</string>
     <string name="digit0">"0"</string>
     <string name="digit1">"1"</string>
     <string name="digit2">"2"</string>
@@ -27,17 +27,17 @@
     <string name="digit7">"7"</string>
     <string name="digit8">"8"</string>
     <string name="digit9">"9"</string>
-    <string name="del">"EXCLUIR"</string>
-    <string name="clear">"LIMPAR"</string>
+    <string name="del">"RADERA"</string>
+    <string name="clear">"RENSA"</string>
     <string name="sin">"sin"</string>
     <string name="cos">"cos"</string>
     <string name="tan">"tan"</string>
     <string name="e">"e"</string>
     <string name="ln">"ln"</string>
-    <string name="lg">"registro"</string>
+    <string name="lg">"log"</string>
     <string name="leftParen">"("</string>
     <string name="rightParen">")"</string>
-    <string name="basic">"Painel básico"</string>
-    <string name="advanced">"Painel avançado"</string>
-    <string name="clear_history">"Limpar histórico"</string>
+    <string name="basic">"Standardpanel"</string>
+    <string name="advanced">"Avancerad panel"</string>
+    <string name="clear_history">"Rensa historik"</string>
 </resources>

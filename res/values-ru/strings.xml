@@ -27,7 +27,7 @@
     <string name="digit7">"7"</string>
     <string name="digit8">"8"</string>
     <string name="digit9">"9"</string>
-    <string name="del">"УДАЛИТЬ"</string>
+    <string name="del">"Удалить"</string>
     <string name="clear">"СБРОС"</string>
     <string name="sin">"sin"</string>
     <string name="cos">"cos"</string>
@@ -38,6 +38,6 @@
     <string name="leftParen">"("</string>
     <string name="rightParen">")"</string>
     <string name="basic">"Основная панель"</string>
-    <string name="advanced">"Расширенная панель"</string>
+    <string name="advanced">"Дополнительная панель"</string>
     <string name="clear_history">"Очистить историю"</string>
 </resources>
