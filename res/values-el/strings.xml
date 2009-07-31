@@ -15,7 +15,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">"Αριθμομηχανή"</string>
+    <string name="app_name">"Αριθμομηχ."</string>
     <string name="error">"Σφάλμα"</string>
     <string name="digit0">"0"</string>
     <string name="digit1">"1"</string>
