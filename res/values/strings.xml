@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Application name -->
     <string name="app_name">Calculator</string>
@@ -27,7 +26,7 @@
     <!-- Button name on screen to delete the last entered digit or operator -->
     <string name="del">DELETE</string>
     <!-- Button name on screen to clear the entire calculation field -->
-    <string name="clear">CLEAR</string>
+    <string name="clear">C</string>
     <!-- Do not translate. Unicode division sign; don't translate. Displayed as button on screen. -->
     <string name="div">\u00f7</string>
     <!-- Do not translate. Unicode multiplication sign; don't translate. Displayed as button on screen. -->
@@ -73,4 +72,5 @@
     <string name="advanced">Advanced panel</string>
     <!-- Menu item text to clear the calculation history. -->
     <string name="clear_history">Clear history</string>
+    <string name="a_clear">AC</string>
 </resources>

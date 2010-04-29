@@ -28,7 +28,7 @@
     <string name="digit8">"8"</string>
     <string name="digit9">"9"</string>
     <string name="del">"ELIMINAR"</string>
-    <string name="clear">"BORRAR"</string>
+    <string name="clear">"C"</string>
     <string name="sin">"sen"</string>
     <string name="cos">"cos"</string>
     <string name="tan">"tan"</string>
@@ -40,4 +40,5 @@
     <string name="basic">"Panel de funciones básicas"</string>
     <string name="advanced">"Panel de funciones avanzadas"</string>
     <string name="clear_history">"Borrar historial"</string>
+    <string name="a_clear">"AC"</string>
 </resources>

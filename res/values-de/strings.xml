@@ -40,4 +40,5 @@
     <string name="basic">"Grundfunktionen"</string>
     <string name="advanced">"Erweiterte Funktionen"</string>
     <string name="clear_history">"Verlauf löschen"</string>
+    <string name="a_clear"> AC</string>
 </resources>
