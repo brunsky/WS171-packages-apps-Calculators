@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5px"
+         >
+
+        <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/screen"
+              android:layout_marginRight="0px">
+
+            <com.camangi.calculator.CalculatorDisplay
+                 android:id="@+id/display"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 >
+
+                <EditText style="@style/display_style" />
+                <EditText style="@style/display_style" />
+
+            </com.camangi.calculator.CalculatorDisplay>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+         android:id="@+id/simplePad"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical"
+         android:layout_gravity="center"
+         >
+
+		<LinearLayout
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="0px">
+             <Button
+                android:id="@+id/factorial"
+                android:text="@string/factorial"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+	      	<Button
+                android:id="@+id/leftParen"
+                android:text="@string/leftParen"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/rightParen"
+                android:text="@string/rightParen"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+             <Button android:text="@string/clear" android:id="@+id/c_button" android:background="@drawable/btn01_press_state" style="@style/button_style"></Button>
+             <Button android:text="@string/a_clear" android:id="@+id/ac_button" android:background="@drawable/btn01_press_state" style="@style/button_style"></Button>
+             			
+		</LinearLayout>
+
+
+		 <LinearLayout
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="0px"
+             >
+            <Button
+                android:id="@+id/sin"
+                android:text="@string/sin"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/cos"
+                android:text="@string/cos"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/tan"
+                android:text="@string/tan"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/ln"
+                android:text="@string/ln"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/lg"
+                android:text="@string/lg"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+        </LinearLayout>
+
+
+
+		<LinearLayout
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="0px">
+      
+      		<Button
+                android:id="@+id/digit7"
+                android:text="@string/digit7"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+      		<Button
+                android:id="@+id/digit8"
+                android:text="@string/digit8"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+      		<Button
+                android:id="@+id/digit9"
+                android:text="@string/digit9"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+      		<Button
+                android:id="@+id/div"
+                android:text="@string/div"
+                android:background="@drawable/btn03_press_state"
+                style="@style/button_style"
+                />
+      		<Button
+                android:id="@+id/pi"
+                android:text="@string/pi"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+		</LinearLayout>
+	
+		<LinearLayout
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="0px">
+      
+      		<Button
+                android:id="@+id/digit4"
+                android:text="@string/digit4"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/digit5"
+                android:text="@string/digit5"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/digit6"
+                android:text="@string/digit6"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/mul"
+                android:text="@string/mul"
+                android:background="@drawable/btn03_press_state"
+                style="@style/button_style"
+                />
+      		 <Button
+                android:id="@+id/e"
+                android:text="@string/e"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+		</LinearLayout>
+	
+		<LinearLayout
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="0px">
+      
+      		<Button
+                android:id="@+id/digit1"
+                android:text="@string/digit1"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/digit2"
+                android:text="@string/digit2"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/digit3"
+                android:text="@string/digit3"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/minus"
+                android:text="@string/minus"
+                android:background="@drawable/btn03_press_state"
+                style="@style/button_style"
+                />
+      		<Button
+                android:id="@+id/power"
+                android:text="@string/power"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+		</LinearLayout>
+	
+		<LinearLayout
+             android:layout_weight="1"
+             android:layout_width="fill_parent"
+             android:layout_height="0px">
+      
+      		 <Button
+                android:id="@+id/digit0"
+                android:text="@string/digit0"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />    
+      		 <Button
+                android:id="@+id/dot"
+                android:text="@string/dot"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/equal_button"
+                android:text="@string/equal"
+                android:background="@drawable/btn02_press_state"
+                style="@style/button_style"
+                />
+            <Button
+                android:id="@+id/plus"
+                android:text="@string/plus"
+                android:background="@drawable/btn03_press_state"
+                style="@style/button_style"
+                />
+      		<Button
+                android:id="@+id/sqrt"
+                android:text="@string/sqrt"
+                android:background="@drawable/btn01_press_state"
+                style="@style/button_style"
+                android:textSize="40dp"
+       			android:layout_width="fill_parent"
+       			android:layout_height="fill_parent"
+       			android:layout_weight="1"
+       			android:focusable="true"
+                />
+		</LinearLayout>
+		
+	</LinearLayout>
+
+
+</LinearLayout>
